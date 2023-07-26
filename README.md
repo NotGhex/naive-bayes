@@ -1,7 +1,7 @@
 # naive-bayes
 
 ```js
-import { NaiveBayesClassifier } from 'naive-bayes';
+import { NaiveBayesClassifier } from '@catplusplus/naive-bayes';
 
 const classifier = new NaiveBayesClassifier();
 
