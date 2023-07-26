@@ -1,0 +1,1 @@
+export const PUNCTUATION_REGEX = /[^(a-zA-ZA-Яa-я0-9_)+\s]/g;
