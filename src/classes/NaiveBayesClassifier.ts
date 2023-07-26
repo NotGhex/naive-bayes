@@ -37,7 +37,7 @@ export class NaiveBayesClassifier implements Omit<NaiveBayesClassifierData, 'cat
         return this;
     }
 
-    public async learn(document: string, classifications: string|string[]): Promise<this> {
+    public async addDocument(document: string, classifications: string|string[]): Promise<this> {
         const categories = (typeof classifications === 'string' ? [classifications] : classifications).map(n => this.resolveCategory(n));
         const tokens = await this.tokenizer(document);
 
