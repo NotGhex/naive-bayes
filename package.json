@@ -1,5 +1,5 @@
 {
-  "name": "naive-bayes",
+  "name": "@catplusplus/naive-bayes",
   "description": "Naive Bayes classifier for node.js",
   "version": "1.0.0",
   "main": "./dist/index.js",
@@ -12,6 +12,11 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "keywords": [
     "naive",
     "bayes",
@@ -30,5 +35,8 @@
   "dependencies": {
     "@discordjs/collection": "^1.5.1",
     "bayes-classifier": "^0.0.5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
